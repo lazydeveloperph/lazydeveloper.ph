@@ -9,7 +9,9 @@ pause
 del *.lnk
 attrib *.* -s -h /s /d
 
-robocopy E:\ E:\backup /e
+mkdir backup
+
+robocopy F:\ F:\backup /e
 
 echo =======================================
 echo                DONE
